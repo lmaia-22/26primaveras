@@ -1,0 +1,101 @@
+body {
+    background-image: url("assets/bk.jpg");
+    background-size: cover;
+  }
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Main Content */
+#main-content {
+	position: relative;
+	padding: 50px 0;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0,0,0,0.5);
+}
+
+  .container {
+    margin-top: 25px;
+    border-radius: 10px;
+  } 
+  .card {
+    width: 200px;
+    height: 330px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-mid {
+    margin-bottom: 30px;
+  }
+
+
+  .card-img-top {
+    object-fit: fill;
+  }
+
+  .bg-black {
+      background-color: #f2f2f2;
+      border-radius: 10px 10px 10px 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+      height: 400px; /* Adjust the height based on your design */
+  }
+  .spring-theme {
+      background-color: #f2f2f2;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+      padding: 20px;
+  }
+
+  .spring-navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      width: 100%;
+      background-color: #FFF5EE;
+      border-bottom: 2px solid #8FBC8F;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .spring-navbar a {
+      color: #556B2F;
+  }
+
+  .spring-navbar a:hover {
+      color: #8FBC8F;
+  }
+
+  .logo {
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+  }
+
+  .spring-footer {
+      background-color: #594840;
+      color: #f0e9e1;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+  }
+  .main-content {
+      padding: 60px 20px;
+  }
+
+  .centered-title {
+      text-align: center;
+      font-size: 3rem;
+      color: #ffffff;
+      margin-bottom: 20px;
+  }
