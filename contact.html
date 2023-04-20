@@ -13,29 +13,112 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light spring-navbar">
     <img src="assets/penomar.jpg" alt="Logo" class="logo">
-    <a class="navbar-brand" href="/index.html">26 Primaveras</a>
+    <a class="navbar-brand" href="/26primaveras/index.html">26 Primaveras</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-            <a class="nav-link" href="/seatingplan.html"><i class="fas fa-th"></i> Seating Plan</a>
+            <a class="nav-link" href="/26primaveras/seatingplan.html"><i class="fas fa-th"></i> Seating Plan</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/guests.html"><i class="fas fa-users"></i> Guests</a>
+            <a class="nav-link" href="/26primaveras/guests.html"><i class="fas fa-users"></i> Guests</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/contact.html"><i class="fas fa-envelope"></i> Contact</a>
+            <a class="nav-link" href="/26primaveras/contact.html"><i class="fas fa-envelope"></i> Contact</a>
           </li>
       </ul>
     </div>
   </nav>
   <div class="container">
     <div class="main-content">
-        <h1 class="centered-title">Contact</h1>
-        <a class="btn btn-success btn-lg"href="tel:+351937967600">Call me!</a>
+        <h1 class="centered-title">Contact me</h1>
     </div>
+
+    <!--Section: Contact v.2-->
+<section class="mb-4">
+
+  <!--Section description-->
+  <p class="text-center text-white w-responsive mx-auto mb-5">Se tens alguma dúvida em relação aos lugares, por favor preenche este formulário. Obrigado.</p>
+<!--Grid column-->
+<div class="col-md-3 text-center text-white">
+  <ul class="list-unstyled mb-0">
+      <li><i class="fas fa-map-marker-alt fa-2x"></i>
+          <p>R. de Almeiriga Norte 2955, 4455-420 Perafita</p>
+      </li>
+  </ul>
+</div>
+  <div class="row">
+
+      <!--Grid column-->
+      <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="" method="POST">
+
+              <!--Grid row-->
+              <div class="row text-white">
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="name" name="name" class="form-control">
+                          <label for="name" class="">O teu nome</label>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="email" name="email" class="form-control">
+                          <label for="email" class="">O teu email</label>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row text-white">
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                          <input type="text" id="subject" name="subject" class="form-control">
+                          <label for="subject" class="">Assunto</label>
+                      </div>
+                  </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row text-white">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                      <div class="md-form">
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                          <label for="message">Mensagem</label>
+                      </div>
+
+                  </div>
+              </div>
+              <!--Grid row-->
+
+          </form>
+          <div class="text-center text-white text-md-left">
+              <a type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Send</a>
+              <h2>OR</h2>
+              <a class="btn btn-success btn-lg"href="tel:+351937967600">Call me!</a>
+          </div>
+          <div class="status"></div>
+      </div>
+      <!--Grid column-->
+
+  </div>
+
+</section>
+<!--Section: Contact v.2-->
 
 </div>
   <footer class="footer spring-footer">
@@ -44,16 +127,42 @@
         <div class="col">
           <p>26 Primaveras &copy; 2023</p>
         </div>
-        <div class="col">
-          <p class="float-md-end">Contact: contact@26primaveras.com</p>
-        </div>
       </div>
     </div>
   </footer>
   
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">LOOOOOOLLLLL</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h2>Quem manda sou eu! Se achas que mandas estás enganado!</h2>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Sou Nabo!</button>
+          <button type="button" class="btn btn-success">Sou nabo em verde!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/16133e7244.js" crossorigin="anonymous"></script>
+
+  <script>
+    function joke(){
+      var a = document.getElementById("alert");
+      a.setAttribute("hidden", false);
+    }
+  </script>
 </body>
 </html>

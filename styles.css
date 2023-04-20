@@ -99,3 +99,56 @@ body {
       color: #ffffff;
       margin-bottom: 20px;
   }
+
+  #alert{
+    
+  }
+
+
+@media (min-width:320px) and (max-width: 480px) { 
+  /* smartphones, iPhone, portrait 480x320 phones */ 
+
+  .card {
+    margin: 0;;
+    width: 120px;
+    height: 220px;
+  }
+
+  .card-title{
+    font-size: 14px;
+  }
+
+  .card-text{
+    font-size: 12px;
+  }
+
+  .card-mid {
+    margin-bottom: 20px;
+  }
+
+
+  .card-img-top {
+    object-fit: fill;
+    height: 100px;
+    width: 120px;
+  }
+
+  .bg-black {
+      background-color: #f2f2f2;
+      border-radius: 10px 10px 10px 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+      height: 240px; /* Adjust the height based on your design */
+      width: 120px;
+  }
+
+  .col-sm-4{
+  width: 32.5%;
+  }
+
+
+}
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) {  }
